@@ -7,7 +7,7 @@ inquirer.prompt([
     {
         type: 'input',
         name: 'txt',
-        message: 'Enter text',
+        message: 'Enter text: 3 characters only',
         validate: (input) => {
             if (input.length === 3) {
             return true } else {
@@ -55,7 +55,7 @@ inquirer.prompt([
    <svg version="1.1"
      width="300" height="200"
      xmlns="http://www.w3.org/2000/svg">
-
+<rect width="300" height="200" fill="white"/>
   ${s.render()}
 
 
