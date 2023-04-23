@@ -36,7 +36,21 @@ inquirer.prompt([
     }
 ])
 .then(({txt, color, shape, shapecolor}) => {
-   var data = `
+   var s;
+    if (shape === 'Circle') {
+    s = new Circle()      //() calls for constructor for circle
+   } 
+   else if (shape === 'Triangle') {
+    s = new Triangle()
+   }
+   else if (shape === 'Square') {
+    s = new Square()
+   }
+
+   s.setColor(shapecolor)
+   
+   
+    var data = `
    <svg version="1.1"
      width="300" height="200"
      xmlns="http://www.w3.org/2000/svg">
@@ -48,6 +62,9 @@ inquirer.prompt([
   <text x="150" y="125" font-size="60" text-anchor="middle" fill="${color}">${txt}</text>
 
 </svg>`
+
+
+
     fs.writeFile("logo.svg", data, ()=> {
         console.log("Generated logo.svg");
     }
