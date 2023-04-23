@@ -6,6 +6,28 @@
   "dependencies": {
     "inquirer": "^8.2.4",
     "jest": "^29.5.0"
-   
-  }
+  },
+  "name": "svg-logo",
+  "description": "SVG logo maker Since this is not a deployed site, please view the walkthrough video at",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/osuchaya/svg-logo.git"
+  },
+  "keywords": [
+    "SVG",
+    "OOP"
+  ],
+  "author": "Suchaya Osatis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/osuchaya/svg-logo/issues"
+  },
+  "homepage": "https://github.com/osuchaya/svg-logo#readme"
 }
