@@ -60,7 +60,7 @@ inquirer.prompt([
 
 
 
-  <text x="150" y="125" font-size="60" text-anchor="middle" fill="${color}">${txt}</text>
+  <text x="150" y="130" font-size="50" text-anchor="middle" fill="${color}">${txt}</text>
 
 </svg>`
 
