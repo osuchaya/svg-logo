@@ -1,6 +1,6 @@
 # SVG logo maker
 SVG logo maker
-Since this is not a deployed site, please view the walkthrough video at 
+Since this is not a deployed site, please view the walkthrough video at this link https://drive.google.com/file/d/1jgNsu5r9og8vCgbwqdU5koPnSHHmu1dS/view
 
 Please see the repository where this project is located at https://github.com/osuchaya/svg-logo
 
@@ -26,24 +26,19 @@ Install Node version 16.0 in order to run this application successfully.
 
 ## Usage
 
-After cloning the code files into local machine, run  node index.js. This will initiate the prompts to input information required to generate a basic SVG logo. Follow the prompts and answer all the questions. Once completed, a logo.svg file will be generated, with features i.e. shape, color and letters matching the information the user has put in.
+After cloning the code files into local machine, run npm init and npm install (npm i) to initialize the packages then run  node index.js. This will initiate the prompts to input information required to generate a basic SVG logo. Follow the prompts and answer all the questions. Once completed, a logo.svg file will be generated, with features i.e. shape, color and letters matching the information the user has put in.
 
 ## License
 
 This project is currently under MIT license.
 
-## Contribution
-
-Please contact me on suchaya.osatis@gmail.com should you kindly wish to contribute to my project.
-
 ## Learning points
 The author learned to apply what is learnt during Node.js and Object-Orientated Programming module and executing JavaScript functions through Command Line Interface. 
 Through this exercise, the author also learned to use node package manager (npm) to install inquirer and use inquirer function to ask for
-user input. Other useful functions such as writeToFile, OOP inheritance (extends) and path to store the file generated is also implemented in this project. It has
-been a very useful introductory project to the back-end environment for my web development course.
+user input. The author also learned that npm init command should be first called in order to create package.json file, followed by npm install command in order to install any relevant dependencies packages needed for the project. Other useful functions such as writeFile to generate a new file containing object generated, OOP inheritance (extends) to render children classes from parent class and path to store the file containing the generated object is also implemented in this project. Most importantly, the author learned to consult documents for new materials not explored in class, such as SVG, which shows independent research.
 
 ## Credits
-Resources were consulted to complete this application. This includes documents about Node.js, Inquirer package from npm and tutorials on SVG from https://nodejs.org, https://npmjs.com (relevant version), Mozilla https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial and tutor who helped to explain the concepts on file structures, SVG polygons and render functions.
+Resources were consulted to complete this application. This includes documents about Node.js, Inquirer package from npm and tutorials on SVG from https://nodejs.org, https://npmjs.com (relevant version), Mozilla webdoc tutorial https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial and tutor who helped to explain the concepts on file structures, SVG polygons and render functions.
 
 ## Author Information
 * [Portfolio] (https://osuchaya.github.io/challenge2/)

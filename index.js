@@ -7,9 +7,9 @@ inquirer.prompt([
     {
         type: 'input',
         name: 'txt',
-        message: 'Enter text: 3 characters only',
+        message: 'Enter text: up to 3 characters only',
         validate: (input) => {
-            if (input.length === 3) {
+            if (input.length <= 3) {
             return true } else {
                 return false
             }
@@ -60,7 +60,7 @@ inquirer.prompt([
 
 
 
-  <text x="150" y="130" font-size="50" text-anchor="middle" fill="${color}">${txt}</text>
+  <text x="150" y="115" font-size="45" text-anchor="middle" fill="${color}">${txt}</text>
 
 </svg>`
 
